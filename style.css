@@ -7,3 +7,25 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+p, h1 {
+    font-family: sans-serif;
+    color: darkblue;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+    padding: 5%;
+}
+
+main {
+    background-color: skyblue;
+    padding: 5%;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 3%;
+}
