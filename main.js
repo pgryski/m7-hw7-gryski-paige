@@ -12,6 +12,12 @@ xmlhttp.onreadystatechange = function() {
                 headertext.appendChild(newHeaderText);
             };
             addHeaderText();
+
+            function addWeatherText() {
+                var newWeatherText = document.createTextNode(apiResult.weather[0].description);
+                weathertext.appendChild(newWeatherText);
+            };
+            addWeatherText();
         } 
         
     }
